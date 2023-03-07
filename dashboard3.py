@@ -273,7 +273,7 @@ AS_class_fig = go.Figure(data=AS_class).update_traces(marker=dict(colors=color_p
 st.write("""
         # Distribution of ratings toward 4 major topics from reviews on **Carrefour**
         """)
-st.write(f"##### We have gather the total ouf {len(inner_df):,} reviews from Trustpilot webiste. The purpose is to see the how customers their shopping experience through major 4 topics within customer journeys.")
+st.write(f"##### We have gather the total ouf {len(inner_df):,} reviews from Trustpilot webiste. The purpose is to see the how customers perceive their shopping experience through major 4 topics within customer journeys.")
 
 # print(os.getcwd())
 # st.markdown(os.getcwd())
