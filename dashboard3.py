@@ -307,6 +307,8 @@ with row2_col5:
     st.plotly_chart(AS_class_fig, use_container_width=True)
 
 
+st.write("** The above charts contain 2 rings, with the **inner ring** representing Carrefour and **outer ring** the selected competitors")
+
 
 
 
